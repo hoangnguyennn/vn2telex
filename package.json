@@ -5,7 +5,8 @@
   "author": "hoangnguyennn",
   "main": "./dist/index.js",
   "keywords": [
-    "vietnamese to telex"
+    "vietnamese to telex",
+    "vn2telex"
   ],
   "scripts": {
     "build": "tsc",

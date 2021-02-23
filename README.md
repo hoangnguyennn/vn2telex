@@ -5,17 +5,17 @@ A tiny Node.js module for converting Vietnamese to telex
 ## Installation
 
 ```bash
-npm i vietnamese-to-telex --save
+npm i vn2telex --save
 ```
 
 ## How to use
 
 ```javascript
 // es5
-const vn2telex = require("vietnamese-to-telex").default;
+const vn2telex = require('vn2telex').default
 
 // or es6
-import vn2telex from "vietnamese-to-telex";
+import vn2telex from 'vn2telex'
 
-vn2telex("Việt Nam"); // Vieejt Nam
+vn2telex('Việt Nam') // Vieejt Nam
 ```
