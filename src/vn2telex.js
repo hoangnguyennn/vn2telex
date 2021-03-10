@@ -1,4 +1,4 @@
-const VN_2_TELEX: { [key: string]: string } = {
+const VN_TELEX_MAPPER = {
   á: 'as',
   à: 'af',
   ả: 'ar',
@@ -74,13 +74,14 @@ const VN_2_TELEX: { [key: string]: string } = {
  * @example
  * vn2telex('Việt Nam'); // Vieejt Nam
  */
-const vn2telex = (str: string): string => {
+const vn2telex = (str) => {
   return str
     .split('')
-    .map((char) => VN_2_TELEX[char] || char)
+    .map((char) => VN_TELEX_MAPPER[char] || char)
     .join('')
 }
 
-vn2telex.VN_2_TELEX = VN_2_TELEX
-
-export { vn2telex, VN_2_TELEX }
+module.exports = {
+  vn2telex,
+  VN_TELEX_MAPPER
+}

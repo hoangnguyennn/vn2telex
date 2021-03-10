@@ -12,7 +12,7 @@ npm i vn2telex --save
 
 ```javascript
 // es5
-const vn2telex = require('vn2telex').default
+const vn2telex = require('vn2telex')
 
 // or es6
 import vn2telex from 'vn2telex'
