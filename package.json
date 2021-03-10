@@ -1,6 +1,6 @@
 {
   "name": "vn2telex",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A tiny Node.js module for converting Vietnamese to telex",
   "author": "hoangnguyennn",
   "main": "./dist/index.js",
